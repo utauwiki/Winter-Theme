@@ -1,0 +1,564 @@
+a[href*="?thank="], a[href$="mode=delete"], .profile-icons a[href*="mode=editpost"], a[href*="mode=quote"], a[href*="modcp?mode=ip"], a[href*="mode=reply"], input.button1, input.button2, .profile-icons  a[href^="/report?mode=report"] {
+    background-image: -ms-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(64, 64, 166, 0.7)), color-stop(1, rgba(13,13,115,0.9)));
+    background-image: -webkit-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
+    background-image: linear-gradient(to top, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
+    padding: 1px 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.navbar-menu {
+    z-index: 10000 !important;
+}
+.profile-icons  a[href*="?thank="]:hover, .profile-icons  a[href$="mode=delete"]:hover, .profile-icons a[href*="mode=editpost"]:hover, .profile-icons  a[href*="mode=quote"]:hover, .profile-icons  a[href*="modcp?mode=ip"]:hover, .profile-icons  a[href*="mode=reply"]:hover, .profile-icons  a[href*="mode=newtopic"]:hover, .profile-icons  a[href^="/report?mode=report"]:hover {
+    background-image: -ms-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -moz-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -o-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00C4CA), color-stop(1, #4D4DB3));
+    background-image: -webkit-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: linear-gradient(to top, #1A1A80 0%, #4D4DB3 100%);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 4px rgba(5, 5, 5, 0.6);
+}
+
+a[href*="mode=newtopic"], a[href*="mode=reply"], a[href="Locked"], input.button2[name="preview"], input.button2[name="post"], input.button1[name="post"], a[href="/privmsg?mode=post"], input.button2[name="draft"] {
+    background-image: -ms-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -moz-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -o-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00C4CA), color-stop(1, #4D4DB3));
+    background-image: -webkit-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: linear-gradient(to top, #1A1A80 0%, #4D4DB3 100%);
+    padding: 4px 10px;
+}
+
+a[href*="mode=newtopic"], a[href*="mode=reply"], a[href="/privmsg?mode=post"], a[href*="?thank="], a[href="Locked"], a[href$="mode=delete"], .profile-icons a[href*="mode=editpost"], a[href*="mode=quote"], a[href*="modcp?mode=ip"], a[href*="mode=reply"], a[href*="mode=newtopic"], input.button2[name="preview"], input.button2[name="post"], input.button1[name="post"], input.button1, input.button2, input.button2[name="draft"], .profile-icons  a[href^="/report?mode=report"]  {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #4d4db3;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(5, 5, 5, 0.4);
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+}
+
+ul.profile-icons li {
+    padding-right: 3px !important;
+}
+
+a[href*="mode=newtopic"]:hover, a[href*="mode=reply"]:hover, input.button2[name="preview"]:hover, input.button2[name="post"]:hover, input.button1[name="post"]:hover, .profile-icons a[href="/privmsg?mode=post"]:hover, input.button2[name="draft"]:hover, input.button1:hover, input.button2:hover {
+    background-image: none;
+    -webkit-transition: background-color 0.2s linear 0s;
+    -moz-transition: background-color 0.2s linear 0s;
+    -o-transition: background-color 0.2s linear 0s;
+    -ms-transition: background-color 0.2s linear 0s;
+    transition: background-color 0.2s linear 0s;
+    background-color: #1A1A80;
+}
+
+a[href="/privmsg?mode=post"]:after {
+    content: 'New PM';
+}
+
+a[href^="/report?mode=report"]:after {
+    content: 'Report';
+}
+
+a[href*="?thank="]:after {
+    content: 'Thanks';
+}
+
+a[href="Locked"]:after {
+    content: 'Locked';
+}
+
+a[href$="mode=delete"]:after {
+    content: 'Delete';
+}
+
+.profile-icons a[href*="mode=editpost"]:after {
+    content: 'Edit';
+}
+
+a[href*="mode=quote"]:after {
+    content: 'Quote';
+}
+
+a[href*="modcp?mode=ip"]:after {
+    content: 'IP';
+}
+
+a[href*="mode=reply"]:after {
+    content: 'Post reply';
+}
+
+a[href*="mode=newtopic"]:after {
+    content: 'New Topic';
+}
+
+.module .h3 {
+    background-image: -ms-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -moz-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -o-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4040A6), color-stop(1, #0D0D73));
+    background-image: -webkit-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: linear-gradient(to bottom, #4040A6 0%, #0D0D73 100%);
+    border-left: 1px solid rgba(0,0,102,0.5);
+    border-right: 1px solid rgba(0,0,102,0.5);
+    box-shadow: 0px -4px 5px rgba(255, 255, 255, 0.2) inset !important;
+    color: #FFF !important;
+}
+
+li.row[style="margin-top:5px;"] {
+    margin-top: 0px !important;
+    border-top: 1px solid #000066 !important;
+}
+
+.pm-new {
+    border: 1px solid rgba(0, 0, 102, 1);
+}
+
+.global-pms, .pm-list-before, .pm-new, .pm-holder, .pm-list {
+    background: none repeat scroll 0 0 rgba(0, 0, 102, 0.75);
+}
+
+.pm-list-before, .pm-holder, .pm-list {
+    border-left: 1px solid rgba(0, 0, 102, 1);
+}
+
+.pm-holder, .pm-list  {
+    border-bottom: 1px solid rgba(0, 0, 102, 1);
+    border-top: 1px solid rgba(0, 0, 102, 1);
+}
+
+.forumbg .lastpost div {
+    max-width: 220px;
+    font-size: 11px !important;
+}
+
+li.row {
+    background-image: none;
+    background: #FFF;
+    border-top: 1px solid #EEE !important;
+    border-bottom: none !important;
+}
+
+li.row:hover {
+    background-color: rgba(0, 51, 102, 0.01);
+}
+
+body {
+    background: url('http://i.imgur.com/iN1PugK.jpg') !important;
+}
+
+li.row:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a.topictitle span {
+    color: #0ba3bc !important;
+}
+
+.newpostcolor {
+    background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%)!important;
+    background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%)!important;
+    background-image: -o-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%)!important;
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #ffdab9))!important;
+    background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%) !important;
+    background-image: linear-gradient(to bottom right, #FFFFFF 0%, #ffdab9 100%)!important;
+}
+
+.an, .g-a, .sticky {
+    background-color: #000066;
+}
+
+.forabg {
+    box-shadow: 0 0 10px white inset;
+}
+
+table.forumline *:not(a strong) {
+    color: #616161 !important;
+}
+
+.post {
+    background-color: #e7e7ff;
+    background-image: none;
+}
+
+table.forumline {
+    background-color: #FFF !important;
+    background-image: none;
+    color: #616161 !important;
+    font-size: 1.2em;
+    padding: 5px;
+    background-image: -ms-linear-gradient(top, #000045 90%, #000066 100%);
+    background-image: -moz-linear-gradient(top, #000045 90%, #000066 100%);
+    background-image: -o-linear-gradient(top, #000045 90%, #000066 100%);
+    background-image: -webkit-linear-gradient(top, #000045 90%, #000066 100%);
+    background-image: linear-gradient(to bottom, #000045 90%, #000066 100%);
+}
+
+li.header {
+    background-image: -ms-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -moz-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -o-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4040A6), color-stop(1, #0D0D73));
+    background-image: -webkit-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: linear-gradient(to bottom, #4040A6 0%, #0D0D73 100%);
+    border-left: 1px solid rgba(0,0,102,0.5);
+    border-right: 1px solid rgba(0,0,102,0.5);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+div.forabg, div.forumbg {
+    background-image: none;
+    border: none !important;
+    padding: 0px 0px 0px 0px !important;
+    background: none !important;
+}
+
+.forumbg li.header dd.posts {
+    padding-left: 50px !important;
+}
+
+ul.topiclist.forums, ul.topiclist.topics.bg_none, ul.topiclist.topics.search {
+    border-left: 1px solid #000066 !important;
+    border-bottom: 1px solid #000066 !important;
+    border-right: 1px solid #000066 !important;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+li.header dl.icon dt {
+    padding-right: 0px !important;
+}
+
+blockquote {
+    background: url("http://i88.servimg.com/u/f88/14/28/28/25/bb_quo10.gif") no-repeat scroll 5px top transparent !important;
+}
+
+.content blockquote, dl.codebox {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff !important;
+    border-color: #336699 !important;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px !important;
+    margin: 3px 10px !important;
+}
+
+.author {
+    border: 1px solid #dcecef;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 1px #dcecef;
+    padding: 3px 0 !important;
+    width: 60%;
+}
+
+img[src="http://hitsk.in/t/15/32/52/i_post.png"], img[src="http://hitsk.in/t/15/32/52/i_reply.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_ip.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_multiquote_off.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_quote.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_edit.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_delete.png"], img[src="http://hitsk.in/t/15/32/52/i_reply_locked.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_thanks_off.png"], img[src="http://illiweb.com/fa/prosilver/button_pm_new_en.png"], img[src="http://hitsk.in/t/15/32/52/i_icon_thanks_on.png"], .author a img, #site-title, div#wrap div#page-header div.headerbar div.inner div#logo-desc a#logo img, .forumbg .lastpost-avatar, .post .corners-top, .post .corners-bottom, #search-box, #logo img, .navbar .corners-top, .navbar .corners-bottom, img[src="http://i39.servimg.com/u/f39/18/93/17/64/fa10.png"] {
+  display: none !important;
+}
+
+.search-box {
+    margin-top: -1px !important;
+    margin-left: 40px !important;
+}
+
+#fa_toolbar a {
+    font-size: 12.5px !important;
+}
+
+#fa_search #fa_textarea {
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+div.forumbg.announcement div.inner ul.topiclist.topics.bg_none li.row.row2 dl.icon dd.dterm, html#min-width body#phpbb div.conteneur_minwidth_IE div.conteneur_layout_IE div.conteneur_container_IE div#wrap div#page-body div#content-container.no-left div#outer-wrapper div#wrapper div#container div#content div#main div#main-content div.forumbg.announcement div.inner ul.topiclist.topics.bg_none li.row.row1 dl.icon dd.dterm, ul.topiclist.topics.search li.row.row2 dl.icon dd.dterm {
+    width: 50% !important;
+}
+
+#memberlist.topiclist.topics {
+    background: #000066 !important;
+    box-shadow: 0 0 10px white inset;
+}
+
+ul.topics li.header dl.icon dt {
+    padding-right: none !important;
+}
+
+div.forumbg.announcement .lastpost, ul.topiclist.topics.search .lastpost {
+    background: none !important;
+    border-radius: none !important;
+    font-size: 1em !important;
+}
+
+div.forumbg.announcement  ul.topiclist dd.dterm, ul.topiclist dt, ul.topiclist.topics.search ul.topiclist dd.dterm {
+    width: 53%;
+}
+
+#picture_legend {
+    margin-left: 100px !important;
+}
+
+div#wrap div#page-body div#content-container.no-left div#outer-wrapper div#wrapper div#container div#content div#main div#main-content div.forumbg.announcement div.inner ul.topiclist.topics li.header dl.icon dt {
+    width: 50.5%;
+}
+
+ul.topiclist li.header dl.icon dd.lastpost {
+    background: none !important;
+    border: none !important;
+}
+
+li.header dl.icon dd.posts, li.header dl.icon dd.topics, li.header dl.icon dd.lastpost, ul.topiclist h2, ul.topiclist.topics li.header dl.icon dd, ul.topiclist.topics li.header dl.icon dt, div.forabg div.inner ul.topiclist li.header dl.icon dd.lastpost span, div.forumbg.announcement div.inner ul.topiclist.topics li.header dl.icon dd.lastpost span {
+    color: #FFF !important;
+    text-transform: capitalize;
+    font: bold 12px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
+}
+
+.lastpost {
+    background: rgba(135,206,250,0.1);
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(135,206,250,0.5)!important;
+    border-right: 1px solid rgba(135,206,250,0.5) !important;
+    font-size: 1em !important;
+}
+
+#logo:after {
+    background: url('http://oi58.tinypic.com/dxii3l.jpg');
+    content: "";
+    display: block;
+    width: 700px;
+    height: 392px;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks {
+    border-bottom: 0px !important;
+    margin-top: 5px;
+}
+
+.toggle_top {
+    background-color: #000066 !important;
+    box-shadow: 0 0 0;
+}
+
+#fa_right, #fa_left, #fa_toolbar_hidden, #fa_search {
+    background-color: #000066 !important;
+    background-image: -ms-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -moz-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -o-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4040A6), color-stop(1, #0D0D73));
+    background-image: -webkit-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: linear-gradient(to bottom, #4040A6 0%, #0D0D73 100%);
+    border-bottom: 2px solid  #3c5c9c;
+    font-size: 12px !important;
+    border-bottom: 2px solid #0D0D73;
+}
+.menutoggle, .menutoggle2 {
+     background-color: #000066 !important;
+    background-image: -ms-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -moz-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -o-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4040A6), color-stop(1, #0D0D73));
+    background-image: -webkit-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
+    background-image: linear-gradient(to bottom, #4040A6 0%, #0D0D73 100%);   
+}
+li.header .posts {
+    color: #FFF !important;
+}
+
+div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks a {
+    text-shadow: NONE !important;
+}
+
+#wrap {
+    background: #DCECEF;
+}
+
+.h3 a, li a, div.h3,  #comments_scroll_container a, a.forumtitle {
+    color: #0BA3BC !important;
+}
+
+.postprofile {
+    margin-top: 0 !important;
+}
+
+.LG-viewing {
+    color: #473e3e !important;
+    font-weight: 600 !important;
+    font-size: 10px;
+}
+
+.module {
+    background-color: rgba(64, 64, 166, 0.1);
+    border-color: rgba(64, 64, 166, 0.3) rgba(64, 64, 166, 0.5) rgba(64, 64, 166, 0.5) rgba(64, 64, 166, 0.3) !important;
+    border-radius: 5px;
+    border-style: solid !important;
+    border-width: 1px !important;
+    box-shadow: 0.7px 0.7px 1px;
+    font-size: 10px;
+}
+
+a:link, a.nav span, a.nav, p.copyright strong a, h2.topic-title a, .postprofile a:active, .postprofile a:link, .postprofile a:visited, .postprofile dt.author a, a:visited {
+    color: #0ba3bc;
+}
+
+h1.page-title {
+    color: #0ba3bc !important;
+}
+
+.forumbg {
+    background: url("http://i88.servimg.com/u/f88/14/28/28/25/back10.gif") repeat-x scroll 0 0 #f2f2f2;
+    border: 1px solid #ddd !important;
+    border-radius: 3px;
+}
+
+table.table1 thead th {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-style: none !important;
+    padding: 0 0 4px 3px;
+    text-transform: uppercase;
+}
+
+#profile-advanced-right div.module div.inner {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: -10px !important;
+    margin-top: 0px !important;
+    width: 120%;
+}
+
+#profile-advanced-details #cp-main {
+    background-color: rgba(135, 206, 250, 0.1);
+    border: 1px solid rgba(135, 206, 250, 0.15);
+    box-shadow: 0 0 5px #badff1 inset;
+}
+
+#profile-advanced-left div#tabs ul li a span {
+    color: #0ba3bc;
+}
+
+#tabs ul li a {
+    background: none repeat scroll 0 0 rgba(51, 51, 153, 0.2);
+    font-weight: normal;
+}
+
+#tabs ul li a:hover {
+    background: none repeat scroll 0 0 rgba(51, 51, 153, 1);
+    font-weight: normal;
+}
+
+#profile-advanced-details ol li .avatar img, #profile-advanced-details ol li .message-header {
+    background: none repeat scroll 0 0 rgba(135, 206, 250, 0.25);
+}
+
+#LGquickvm_bb span, #LGquickvm_foot span, #LGquickvm_form {
+    border: 1px solid rgba(51, 51, 153, 0.1);
+    box-shadow: 0 0 8px rgba(51, 51, 153, 0.1) inset;
+}
+
+#profile-advanced-details ol > li {
+    background: none repeat scroll transparent !important;
+    border: none !important;
+}
+
+#profile-advanced-details .message-block {
+    margin-left: 50px;
+}
+
+#profile-advanced-details ol li .message-header {
+    border-bottom: 1px solid rgba(135, 206, 250, 0.1);
+    border-left: 1px solid rgba(135, 206, 250, 0.2);
+    border-top: 1px solid rgba(135, 206, 250, 0.4);
+}
+
+#cp-main .panel {
+    background-color: rgba(135, 206, 250, 0.2);
+}
+
+span.corners-top span, span.corners-bottom span {
+    background-image: url("http://i59.servimg.com/u/f59/17/64/87/72/corner11.png") !important;
+}
+
+span.corners-bottom, span.corners-top {
+    background-image: url("http://i59.servimg.com/u/f59/17/64/87/72/croppe11.png") !important;
+}
+
+#tabs a span {
+    color: #FFF !important;
+}
+
+ul#fa_menulist, ul#notif_list {
+    background: none repeat scroll 0 0 rgba(13, 13, 115, 0.9);
+    background-color: rgba(13, 13, 115, 0.9) !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.see_all {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul#notif_list li:not(:last-child) {
+    background: transparent;
+}
+
+ul#fa_menulist table, ul#notif_list div {
+    color: #fff;
+}
+
+#fa_toolbar #fa_right #notif_list li .contentText a {
+    color: #0ba3bc !important;
+}
+
+select {
+    border: 1px solid #0d0d73;
+}
+
+.navbar .navbar-menu a:hover {
+    color: #000 !important;
+}
+
+#page-header .navbar .linklist a:hover {
+    color: #DDD;
+}
+
+#page-header .navbar {
+    background-image: -ms-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -moz-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -o-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00C4CA), color-stop(1, #4D4DB3));
+    background-image: -webkit-linear-gradient(bottom, #1A1A80 0%, #4D4DB3 100%);
+    background-image: linear-gradient(to top, #1A1A80 0%, #4D4DB3 100%);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.post:not(.newpostcolor) .inner {
+    background: none repeat scroll 0 0 #e2e2fa;
+    width: 663px;
+}
+
+#page-header .navlinks > li > a {
+    color: #FFF !important;
+}

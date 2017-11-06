@@ -344,9 +344,9 @@ li.header dl.icon dd.posts, li.header dl.icon dd.topics, li.header dl.icon dd.la
     content: "";
     display: block;
     width: 700px;
-    height: 392px;
+    height: 310px;
     margin-left: 130px;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks {

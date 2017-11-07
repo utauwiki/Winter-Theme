@@ -123,7 +123,7 @@ a[href*="mode=newtopic"]:after {
 
 li.row[style="margin-top:5px;"] {
     margin-top: 0px !important;
-    border-top: 1px solid #000066 !important;
+    border-top: 1px solid #d3caff !important;
 }
 
 .pm-new {
@@ -182,7 +182,7 @@ a.topictitle span {
 }
 
 .an, .g-a, .sticky {
-    background-color: #000066;
+    background-color: #d3caff;
 }
 
 .forabg {
@@ -204,11 +204,11 @@ table.forumline {
     color: #616161 !important;
     font-size: 1.2em;
     padding: 5px;
-    background-image: -ms-linear-gradient(top, #000045 90%, #000066 100%);
-    background-image: -moz-linear-gradient(top, #000045 90%, #000066 100%);
-    background-image: -o-linear-gradient(top, #000045 90%, #000066 100%);
-    background-image: -webkit-linear-gradient(top, #000045 90%, #000066 100%);
-    background-image: linear-gradient(to bottom, #000045 90%, #000066 100%);
+    background-image: -ms-linear-gradient(top, #ccb9ff 90%, #d3caff 100%);
+    background-image: -moz-linear-gradient(top, #ccb9ff 90%, #d3caff 100%);
+    background-image: -o-linear-gradient(top, #ccb9ff 90%, #d3caff 100%);
+    background-image: -webkit-linear-gradient(top, #ccb9ff 90%, #d3caff 100%);
+    background-image: linear-gradient(to bottom, #ccb9ff 90%, #d3caff 100%);
 }
 
 li.header {
@@ -236,9 +236,9 @@ div.forabg, div.forumbg {
 }
 
 ul.topiclist.forums, ul.topiclist.topics.bg_none, ul.topiclist.topics.search {
-    border-left: 1px solid #000066 !important;
-    border-bottom: 1px solid #000066 !important;
-    border-right: 1px solid #000066 !important;
+    border-left: 1px solid #d3caff !important;
+    border-bottom: 1px solid #d3caff !important;
+    border-right: 1px solid #d3caff !important;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -295,7 +295,7 @@ div.forumbg.announcement div.inner ul.topiclist.topics.bg_none li.row.row2 dl.ic
 }
 
 #memberlist.topiclist.topics {
-    background: #000066 !important;
+    background: #d3caff !important;
     box-shadow: 0 0 10px white inset;
 }
 
@@ -356,30 +356,30 @@ div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks {
 }
 
 .toggle_top {
-    background-color: #000066 !important;
+    background-color: #d3caff !important;
     box-shadow: 0 0 0;
 }
 
 #fa_right, #fa_left, #fa_toolbar_hidden, #fa_search {
-    background-color: #000066 !important;
-    background-image: -ms-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: -moz-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: -o-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4040A6), color-stop(1, #0D0D73));
-    background-image: -webkit-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: linear-gradient(to bottom, #4040A6 0%, #0D0D73 100%);
+    background-color: #d3caff !important;
+    background-image: -ms-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: -moz-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: -o-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccb9ff), color-stop(1, #d3caff));
+    background-image: -webkit-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: linear-gradient(to bottom, #ccb9ff 0%, #d3caff 100%);
     border-bottom: 2px solid  #3c5c9c;
     font-size: 12px !important;
-    border-bottom: 2px solid #0D0D73;
+    border-bottom: 2px solid #d3caff;
 }
 .menutoggle, .menutoggle2 {
-     background-color: #000066 !important;
-    background-image: -ms-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: -moz-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: -o-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4040A6), color-stop(1, #0D0D73));
-    background-image: -webkit-linear-gradient(top, #4040A6 0%, #0D0D73 100%);
-    background-image: linear-gradient(to bottom, #4040A6 0%, #0D0D73 100%);   
+     background-color: #d3caff !important;
+    background-image: -ms-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: -moz-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: -o-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccb9ff), color-stop(1, #d3caff));
+    background-image: -webkit-linear-gradient(top, #ccb9ff 0%, #d3caff 100%);
+    background-image: linear-gradient(to bottom, #ccb9ff 0%, #d3caff 100%);   
 }
 li.header .posts {
     color: #FFF !important;
@@ -534,7 +534,7 @@ ul#fa_menulist table, ul#notif_list div {
 }
 
 select {
-    border: 1px solid #0d0d73;
+    border: 1px solid #d3caff;
 }
 
 .navbar .navbar-menu a:hover {

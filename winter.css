@@ -327,7 +327,7 @@ ul.topiclist li.header dl.icon dd.lastpost {
 }
 
 li.header dl.icon dd.posts, li.header dl.icon dd.topics, li.header dl.icon dd.lastpost, ul.topiclist h2, ul.topiclist.topics li.header dl.icon dd, ul.topiclist.topics li.header dl.icon dt, div.forabg div.inner ul.topiclist li.header dl.icon dd.lastpost span, div.forumbg.announcement div.inner ul.topiclist.topics li.header dl.icon dd.lastpost span {
-    color: #FFF !important;
+    color: #664278 !important;
     text-transform: capitalize;
     font: bold 12px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
 }

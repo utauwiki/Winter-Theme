@@ -1,10 +1,10 @@
 a[href*="?thank="], a[href$="mode=delete"], .profile-icons a[href*="mode=editpost"], a[href*="mode=quote"], a[href*="modcp?mode=ip"], a[href*="mode=reply"], input.button1, input.button2, .profile-icons  a[href^="/report?mode=report"] {
-    background-image: -ms-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
-    background-image: -moz-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
-    background-image: -o-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(64, 64, 166, 0.7)), color-stop(1, rgba(13,13,115,0.9)));
-    background-image: -webkit-linear-gradient(bottom, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
-    background-image: linear-gradient(to top, rgba(64, 64, 166, 0.7) 0%, rgba(13,13,115,0.9) 100%);
+    background-image: -ms-linear-gradient(bottom, rgba(204, 185, 255, 0.7) 0%, rgba(211,202,255,0.9) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(204, 185, 255, 0.7) 0%, rgba(211,202,255,0.9) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(204, 185, 255, 0.7) 0%, rgba(211,202,255,0.9) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(204, 185, 255, 0.7)), color-stop(1, rgba(211,202,255,0.9)));
+    background-image: -webkit-linear-gradient(bottom, rgba(204, 185, 255, 0.7) 0%, rgba(211,202,255,0.9) 100%);
+    background-image: linear-gradient(to top, rgba(204, 185, 255, 0.7) 0%, rgba(211,202,255,0.9) 100%);
     padding: 1px 2px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.5);
 }
@@ -407,8 +407,8 @@ div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks a {
 }
 
 .module {
-    background-color: rgba(64, 64, 166, 0.1);
-    border-color: rgba(64, 64, 166, 0.3) rgba(64, 64, 166, 0.5) rgba(64, 64, 166, 0.5) rgba(64, 64, 166, 0.3) !important;
+    background-color: rgba(204, 185, 255, 0.1);
+    border-color: rgba(204, 185, 255, 0.3) rgba(204, 185, 255, 0.5) rgba(204, 185, 255, 0.5) rgba(204, 185, 255, 0.3) !important;
     border-radius: 5px;
     border-style: solid !important;
     border-width: 1px !important;
@@ -509,8 +509,8 @@ span.corners-bottom, span.corners-top {
 }
 
 ul#fa_menulist, ul#notif_list {
-    background: none repeat scroll 0 0 rgba(13, 13, 115, 0.9);
-    background-color: rgba(13, 13, 115, 0.9) !important;
+    background: none repeat scroll 0 0 rgba(211, 202, 255, 0.9);
+    background-color: rgba(211, 202, 255, 0.9) !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }

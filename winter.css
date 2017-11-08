@@ -432,7 +432,7 @@ h1.page-title {
 }
 
 table.table1 thead th {
-    color: #000;
+    color: #664278;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.3em;
@@ -538,7 +538,7 @@ select {
 }
 
 .navbar .navbar-menu a:hover {
-    color: #000 !important;
+    color: #664278 !important;
 }
 
 #page-header .navbar .linklist a:hover {

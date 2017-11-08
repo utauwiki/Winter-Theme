@@ -43,7 +43,7 @@ a[href*="mode=newtopic"], a[href*="mode=reply"], a[href="/privmsg?mode=post"], a
     border-style: solid;
     border-width: 1px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(5, 5, 5, 0.4);
-    color: #fff !important;
+    color: #664278 !important;
     cursor: pointer;
     font-size: 13px;
     line-height: 18px;
@@ -118,7 +118,7 @@ a[href*="mode=newtopic"]:after {
     border-right: 1px solid rgba(204, 185, 255,0.5);
     border-bottom: 1px solid rgba(204, 185, 255,0.5);
     box-shadow: 0px -4px 5px rgba(255, 255, 255, 0.2) inset !important;
-    color: #FFF !important;
+    color: #664278 !important;
 }
 
 li.row[style="margin-top:5px;"] {
@@ -150,7 +150,7 @@ li.row[style="margin-top:5px;"] {
 
 li.row {
     background-image: none;
-    background: #FFF;
+    background: #664278;
     border-top: 1px solid #EEE !important;
     border-bottom: none !important;
 }
@@ -382,7 +382,7 @@ div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks {
     background-image: linear-gradient(to bottom, #ccb9ff 0%, #d3caff 100%);   
 }
 li.header .posts {
-    color: #FFF !important;
+    color: #664278 !important;
 }
 
 div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks a {
@@ -506,7 +506,7 @@ span.corners-bottom, span.corners-top {
 }
 
 #tabs a span {
-    color: #FFF !important;
+    color: #664278 !important;
 }
 
 ul#fa_menulist, ul#notif_list {
@@ -526,7 +526,7 @@ ul#notif_list li:not(:last-child) {
 }
 
 ul#fa_menulist table, ul#notif_list div {
-    color: #fff;
+    color: #664278;
 }
 
 #fa_toolbar #fa_right #notif_list li .contentText a {
@@ -542,7 +542,7 @@ select {
 }
 
 #page-header .navbar .linklist a:hover {
-    color: #DDD;
+    color: #664278;
 }
 
 #page-header .navbar {
@@ -561,5 +561,5 @@ select {
 }
 
 #page-header .navlinks > li > a {
-    color: #FFF !important;
+    color: #664278 !important;
 }

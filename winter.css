@@ -127,20 +127,20 @@ li.row[style="margin-top:5px;"] {
 }
 
 .pm-new {
-    border: 1px solid rgba(0, 0, 102, 1);
+    border: 1px solid rgba(204, 185, 255, 1);
 }
 
 .global-pms, .pm-list-before, .pm-new, .pm-holder, .pm-list {
-    background: none repeat scroll 0 0 rgba(0, 0, 102, 0.75);
+    background: none repeat scroll 0 0 rgba(204, 185, 255, 0.75);
 }
 
 .pm-list-before, .pm-holder, .pm-list {
-    border-left: 1px solid rgba(0, 0, 102, 1);
+    border-left: 1px solid rgba(204, 185, 255, 1);
 }
 
 .pm-holder, .pm-list  {
-    border-bottom: 1px solid rgba(0, 0, 102, 1);
-    border-top: 1px solid rgba(0, 0, 102, 1);
+    border-bottom: 1px solid rgba(204, 185, 255, 1);
+    border-top: 1px solid rgba(204, 185, 255, 1);
 }
 
 .forumbg .lastpost div {
@@ -156,7 +156,7 @@ li.row {
 }
 
 li.row:hover {
-    background-color: rgba(0, 51, 102, 0.01);
+    background-color: rgba(211, 202, 255, 0.01);
 }
 
 body {
@@ -169,16 +169,16 @@ li.row:last-child {
 }
 
 a.topictitle span {
-    color: #0ba3bc !important;
+    color: #422272 !important;
 }
 
 .newpostcolor {
-    background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%)!important;
-    background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%)!important;
-    background-image: -o-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%)!important;
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #ffdab9))!important;
-    background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #ffdab9 100%) !important;
-    background-image: linear-gradient(to bottom right, #FFFFFF 0%, #ffdab9 100%)!important;
+    background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #a5baef 100%)!important;
+    background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #a5baef 100%)!important;
+    background-image: -o-linear-gradient(top left, #FFFFFF 0%, #a5baef 100%)!important;
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #a5baef))!important;
+    background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #a5baef 100%) !important;
+    background-image: linear-gradient(to bottom right, #FFFFFF 0%, #a5baef 100%)!important;
 }
 
 .an, .g-a, .sticky {
@@ -190,18 +190,18 @@ a.topictitle span {
 }
 
 table.forumline *:not(a strong) {
-    color: #616161 !important;
+    color: #70617a !important;
 }
 
 .post {
-    background-color: #e7e7ff;
+    background-color: #f7edff;
     background-image: none;
 }
 
 table.forumline {
     background-color: #FFF !important;
     background-image: none;
-    color: #616161 !important;
+    color: #70617a !important;
     font-size: 1.2em;
     padding: 5px;
     background-image: -ms-linear-gradient(top, #ccb9ff 90%, #d3caff 100%);
@@ -257,7 +257,7 @@ blockquote {
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
     background-color: #fff !important;
-    border-color: #336699 !important;
+    border-color: #9ea5ed !important;
     border-image: none;
     border-style: solid;
     border-width: 1px 1px 1px 5px !important;
@@ -265,9 +265,9 @@ blockquote {
 }
 
 .author {
-    border: 1px solid #dcecef;
+    border: 1px solid #f1effc;
     border-radius: 3px;
-    box-shadow: 0.5px 0.5px 1px #dcecef;
+    box-shadow: 0.5px 0.5px 1px #f1effc;
     padding: 3px 0 !important;
     width: 60%;
 }
@@ -394,7 +394,7 @@ div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks a {
 }
 
 .h3 a, li a, div.h3,  #comments_scroll_container a, a.forumtitle {
-    color: #0BA3BC !important;
+    color: #422272 !important;
 }
 
 .postprofile {
@@ -418,11 +418,11 @@ div#wrap div#page-header div.navbar div.inner ul.linklist.navlinks a {
 }
 
 a:link, a.nav span, a.nav, p.copyright strong a, h2.topic-title a, .postprofile a:active, .postprofile a:link, .postprofile a:visited, .postprofile dt.author a, a:visited {
-    color: #0ba3bc;
+    color: #422272;
 }
 
 h1.page-title {
-    color: #0ba3bc !important;
+    color: #422272 !important;
 }
 
 .forumbg {
@@ -456,7 +456,7 @@ table.table1 thead th {
 }
 
 #profile-advanced-left div#tabs ul li a span {
-    color: #0ba3bc;
+    color: #422272;
 }
 
 #tabs ul li a {
@@ -530,7 +530,7 @@ ul#fa_menulist table, ul#notif_list div {
 }
 
 #fa_toolbar #fa_right #notif_list li .contentText a {
-    color: #0ba3bc !important;
+    color: #422272 !important;
 }
 
 select {

@@ -11,6 +11,23 @@ a[href*="?thank="], a[href$="mode=delete"], .profile-icons a[href*="mode=editpos
 .navbar-menu {
     z-index: 10000 !important;
 }
+
+div.body_l, div.body_r {
+	top:0;
+	bottom:0;
+	width:71px;
+	position:absolute;
+	background-repeat:repeat-y;
+	background-image:url("https://i62.servimg.com/u/f62/18/83/03/04/candy110.png");
+}
+div.body_l {
+	left:0;
+	background-position:-71px top;
+}
+div.body_r {
+	right:0;
+	background-position:0 top;
+}
 .profile-icons  a[href*="?thank="]:hover, .profile-icons  a[href$="mode=delete"]:hover, .profile-icons a[href*="mode=editpost"]:hover, .profile-icons  a[href*="mode=quote"]:hover, .profile-icons  a[href*="modcp?mode=ip"]:hover, .profile-icons  a[href*="mode=reply"]:hover, .profile-icons  a[href*="mode=newtopic"]:hover, .profile-icons  a[href^="/report?mode=report"]:hover {
     background-image: -ms-linear-gradient(bottom, #ccb9ff 0%, #d3caff 100%);
     background-image: -moz-linear-gradient(bottom, #ccb9ff 0%, #d3caff 100%);
